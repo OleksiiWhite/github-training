@@ -1,0 +1,31 @@
+/* Застосується до всіх тегів з класом text */
+.text {
+    color: brown;
+    font-size: 18px;
+}
+/* Загальні стилі для всіх типів повідомлень */
+.alert {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* Специфічні стилі для кожного типу */
+.success {
+    color: green;
+}
+
+.warning {
+    color: orange;
+}
+
+#title {
+    font-weight: 500;
+    color: orange;
+}
+.social-links a {
+    color: rgb(219, 17, 17);
+    text-decoration: none;
+}
+a[title] {
+    color: teal;
+}
