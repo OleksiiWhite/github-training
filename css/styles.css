@@ -1,5 +1,6 @@
 /* Застосується до всіх тегів з класом text */
 .text {
+    background-color: rgb(91, 177, 190);
     color: brown;
     font-size: 18px;
 }
@@ -15,7 +16,7 @@
 }
 
 .warning {
-    color: orange;
+    color: rgb(255, 166, 0, 0.3);
 }
 
 #title {
