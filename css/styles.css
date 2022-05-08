@@ -29,3 +29,39 @@
 a[title] {
     color: teal;
 }
+.link {
+    color: teal;
+}
+
+.link:hover,
+.link:focus {
+    color: tomato;
+}
+.link:active {
+    color: rgb(76, 20, 172);
+}
+
+.link:visited {
+    color: green;
+}
+.schedule-body>tr:hover {
+    background-color: tomato;
+    color: white;
+}
+.schedule-footer>tr:hover {
+    background-color: rgb(38, 199, 27);
+    color: white;
+}
+/* Оформлення таблиці */
+.schedule {
+    border-collapse: collapse;
+}
+
+.schedule th,
+.schedule td {
+    padding: 8px;
+    border: 1px solid #212121;
+}
+.pointer {
+    cursor: pointer;
+}
