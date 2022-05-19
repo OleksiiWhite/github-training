@@ -1,71 +1,120 @@
 /* Застосується до всіх тегів з класом text */
 .text {
-    background-color: rgb(91, 177, 190);
-    color: brown;
-    font-size: 18px;
+  background-color: rgb(91, 177, 190);
+  color: brown;
+  font-size: 18px;
 }
 /* Загальні стилі для всіх типів повідомлень */
 .alert {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 /* Специфічні стилі для кожного типу */
 .success {
-    color: green;
+  color: green;
 }
 
 .warning {
-    color: rgb(255, 166, 0, 0.3);
+  color: rgb(255, 166, 0, 0.3);
 }
 
 #title {
-    font-weight: 500;
-    color: orange;
+  font-weight: 500;
+  color: orange;
 }
 .social-links a {
-    color: rgb(219, 17, 17);
-    text-decoration: none;
+  color: rgb(219, 17, 17);
+  text-decoration: none;
 }
 a[title] {
-    color: teal;
+  color: teal;
 }
 .link {
-    color: teal;
+  color: teal;
 }
 
 .link:hover,
 .link:focus {
-    color: tomato;
+  color: tomato;
 }
 .link:active {
-    color: rgb(76, 20, 172);
+  color: rgb(76, 20, 172);
 }
 
 .link:visited {
-    color: green;
+  color: green;
 }
-.schedule-body>tr:hover {
-    background-color: tomato;
-    color: white;
+.schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
 }
-.schedule-footer>tr:hover {
-    background-color: rgb(38, 199, 27);
-    color: white;
+.schedule-footer > tr:hover {
+  background-color: rgb(38, 199, 27);
+  color: white;
 }
 /* Оформлення таблиці */
 .schedule {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 .schedule th,
 .schedule td {
-    padding: 8px;
-    border: 1px solid #212121;
+  padding: 8px;
+  border: 1px solid #212121;
 }
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 .post {
-    color: green;
+  color: green;
+}
+
+.page-header {
+  /*  Making header.page-header a Flex-container and aligning elements  */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #607d8b;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.logo {
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #ff5722;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  padding: 15px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+}
+
+.menu > .item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.menu .link {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+}
+
+.menu .link:hover,
+.menu .link:focus,
+.logo:hover,
+.logo:focus {
+  text-decoration: underline;
 }
