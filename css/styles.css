@@ -131,3 +131,16 @@ a[title] {
   font-size: 30px;
   color: teal;
 }
+
+/* градіент */
+body {
+  background-image: linear-gradient(
+    to right,
+    #f44336 15%,
+    #09792b 15%,
+    #09792b 40%,
+    #00b9ff 40%,
+    #00b9ff 65%,
+    #ffb800 65%
+  );
+}
