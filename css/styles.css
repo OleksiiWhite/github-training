@@ -118,3 +118,16 @@ a[title] {
 .logo:focus {
   text-decoration: underline;
 }
+
+/* псевдоелементи не для тексту */
+.box::before {
+  content: 'Це текст в ::before';
+  font-size: 40px;
+  color: orange;
+}
+
+.box::after {
+  content: 'Це текст в ::after';
+  font-size: 30px;
+  color: teal;
+}
