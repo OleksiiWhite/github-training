@@ -134,7 +134,7 @@ a[title] {
 
 /* градіент */
 body {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right,
     #f44336 15%,
     #09792b 15%,
@@ -142,5 +142,28 @@ body {
     #00b9ff 40%,
     #00b9ff 65%,
     #ffb800 65%
-  );
+  ); */
+}
+
+.boxing {
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  background-color: #10af2d;
+}
+.boxing:hover {
+  background-color: white;
+  cursor: pointer;
+  opacity: 0, 5;
+}
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+
+  100% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
 }
