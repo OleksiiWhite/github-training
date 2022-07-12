@@ -13,9 +13,3 @@ function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
   return message;
 }
 
-
-function checkIfCanAccessContent(subType) {
-  const canAccessContent = subType === "pro" || subType === "vip"; // Change this line
-
-  return canAccessContent;
-}
