@@ -172,3 +172,37 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+$accent-color: #d41443;
+$primary-color: #000000;
+$secondary-color: #907e82;
+$white-color: #ffffff;
+$label-title-color: #ffa5ba;
+
+$bgc-body: #ffffff;
+$bgc-body-pink: #fff5f6;
+$bgc-hero: #ffb8ca;
+$bgc-product-1: #f0d1a5;
+$bgc-product-2: #ffb8ca;
+$bgc-product-3: #c2e297;
+$bgc-customer-reviews: #fafafa;
+$bgc-footer: #fff5f6;
+$bgc-mobile-menu: #e17992;
+
+
+
+
+
+%link {
+  text-decoration-line: none;
+}
+
+%list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+%box-text {
+  text-transform: uppercase;
+}
