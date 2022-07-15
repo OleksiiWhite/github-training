@@ -1,5 +1,5 @@
 .prodacts {
-  padding: 60px 20px;
+  padding: 60px 0;
 
   &__text {
     @extend %box-text;
@@ -34,24 +34,26 @@
 
 .product-card {
   @extend %list;
+
+  &__text {
+    font-family: 'DM Sans';
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 152%;
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: $bgc-body;
+
+    margin: 0px 0px 32px;
+  }
 }
 
-.product-card__text {
-  font-family: 'DM Sans';
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 152%;
-
-  text-align: center;
-  letter-spacing: 0.04em;
-
-  color: $bgc-body;
-
-  margin: 0px 0px 32px;
-}
 .product-card__item {
   position: relative;
+  box-sizing: border-box;
 
   width: 100%;
   max-width: 280px;
@@ -60,65 +62,76 @@
   text-align: center;
 
   padding: 160px 40px 40px;
-  margin: 140px auto 0;
+  margin: 140px auto;
+  // margin-left: 0;
+  // margin-right: 0;
+
+  &::before {
+    content: '';
+    background-size: cover;
+    background-position: center;
+    display: inline-blok;
+    position: absolute;
+    top: -140px;
+    left: 0;
+
+    width: 100%;
+    height: 280px;
+  }
 }
 
 .product-card__item--cream {
   background: $bgc-product-2;
   border-radius: 24px;
-}
 
-.product-card__item--cream::before {
-  content: '';
-  display: inline-blok;
-  position: absolute;
-  top: -140px;
-  left: 0;
+  &::before {
+    content: '';
 
-  width: 100%;
-  height: 280px;
-
-  background-image: url('../images/ice-cream@320_1x.png');
-  background-size: cover;
-  background-position: center;
+    background-image: url('../images/ice-cream@320_1x.png');
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url('../images/ice-cream@320_2x.png');
+      }
+    }
+  }
 }
 
 .product-card__item--coffee {
   background: $bgc-product-1;
   border-radius: 24px;
-}
 
-.product-card__item--coffee::before {
-  content: '';
-  display: inline-blok;
-  position: absolute;
-  top: -140px;
-  left: 0;
+  &::before {
+    content: '';
 
-  width: 100%;
-  height: 280px;
-  background-image: url('../images/coffee@320_1x.png');
-  background-size: cover;
-  background-position: center;
+    background-image: url('../images/coffee@320_1x.png');
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url('../images/coffee@320_2x.png');
+      }
+    }
+  }
 }
 
 .product-card__item--milkshakes {
   background: $bgc-product-3;
   border-radius: 24px;
-}
 
-.product-card__item--milkshakes::before {
-  content: '';
-  display: inline-blok;
-  position: absolute;
-  top: -140px;
-  left: 0;
+  &::before {
+    content: '';
 
-  width: 100%;
-  height: 280px;
-  background-image: url('../images/milkshakes@320_1x.png');
-  background-size: cover;
-  background-position: center;
+    background-image: url('../images/milkshakes@320_1x.png');
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url('../images/milkshakes@320_2x.png');
+      }
+    }
+  }
 }
 
 .product-card__title {
@@ -151,10 +164,18 @@
     width: 26px;
     height: 6px;
     background-image: url('../images/three_points_1x.png');
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      & {
+        background-image: url('../images/three_points_2x.png');
+      }
+    }
   }
 }
+.button-product {
+  position: relative;
 
-.button__product-card {
   width: 40px;
   height: 40px;
 
@@ -162,15 +183,29 @@
   border: 0;
 
   background-color: $bgc-body;
-  background-image: url('../images/inr-arrow-right.svg');
-  background-size: 15px;
-  background-repeat: no-repeat;
-  background-position: center;
+  color: $accent-color;
 
   cursor: pointer;
 
   margin-right: auto;
   margin-left: auto;
+  padding: 0;
+  transition: color 250ms linear, background-color 250ms linear;
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    fill: currentColor;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $label-title-color;
+    color: $bgc-body;
+  }
 }
 
 $accent-color: #d41443;
@@ -188,10 +223,6 @@ $bgc-product-3: #c2e297;
 $bgc-customer-reviews: #fafafa;
 $bgc-footer: #fff5f6;
 $bgc-mobile-menu: #e17992;
-
-
-
-
 
 %link {
   text-decoration-line: none;
