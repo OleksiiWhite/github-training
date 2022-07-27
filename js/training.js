@@ -1,15 +1,12 @@
-function makeTransaction(5, 10, 40);
-
-function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
-  let message;
+function slugify(title) {
   // Change code below this line
-  const totalPrice = pricePerDroid * orderedQuantity;
-  if (customerCredits < totalPrice) {
-    message = 'Insufficient funds!';
-  } else {
-    message = `You ordered ${orderedQuantity} droids, you have ${customerCredits} credits left`;
-  }
-  // Change code above this line
-  return message;
-}
+  let slug;
+  slug = title.split(' ');
+  slug = slug.join('-');
+  slug = slug.toLowerCase();
+  console.log(slug);
+  return slug;
 
+  // Change code above this line
+}
+slugify('How to become a JUNIOR developer in TWO WEEKS');
