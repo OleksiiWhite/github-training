@@ -59,3 +59,23 @@
 //   // Change code above this line
 // };
 //////////////////////////////////////////////////////////////
+// const atTheOldToad = {
+//   potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
+//   removePotion(potionName) {
+//     // Change code below this line
+//     const itemPotions = this.potions;
+//     // const { potions } = this;
+//     for (let i = 0; i < itemPotions.length; i += 1) {
+//       if (itemPotions[i] === potionName) {
+//         itemPotions.splice(i, 1);
+//       }
+//     }
+//     console.log(itemPotions);
+//     return itemPotions;
+
+//     // Change code above this line
+//   },
+// };
+
+// atTheOldToad.removePotion('Dragon breath');
+//////////////////////////////////////////////////////////////
