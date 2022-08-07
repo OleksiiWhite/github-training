@@ -111,16 +111,19 @@ const atTheOldToad = {
   //   return this.potions.push(newPotion);
   // },
   // };
-  // atTheOldToad.addPotion({ name: 'Dragon breath', price: 700 });
-  updatePotionName(oldName, newName) {
-    const { potions } = this;
-    for (const potion of potions) {
-      if (potion.name === oldName) {
-        potion.name = newName;
-        console.log(this.potions);
-      }
-    }
-    return `Potion ${oldName} is not in inventory!`;
-  },
-};
-atTheOldToad.updatePotionName('Stone skin', 'Invulnerability potion');
+  
+//   updatePotionName(oldName, newName) {
+//     const { potions } = this;
+//     for (const potion of potions) {
+//       if (potion.name === oldName) {
+//         potion.name = newName;
+//         console.log(this.potions);
+//       }
+//     }
+//     return `Potion ${oldName} is not in inventory!`;
+//   },
+// };
+// atTheOldToad.updatePotionName('Stone skin', 'Invulnerability potion');
+  
+  //////////////////////////////////////////////////////////
+  
