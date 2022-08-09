@@ -27,18 +27,6 @@
 
 ////////////////////////////////////////////////////////////////////////////
 
-// function calculateTotal(number) {
-//   let total = 0;
-//   for (i = 1; i <= number; i += 1) {
-//     total += i;
-//     console.table(total);
-//   }
-
-//   return total;
-// }
-
-///////////////////////////////////////////////////////////////////////////////////////////
-
 // function findLongestWord(string) {
 //   const wordsOffString = string.split(' ');
 //   let longerWord = wordsOffString[0];
@@ -180,16 +168,3 @@
 //   { name: 'Droid', price: 400, quantity: 7 },
 //   { name: 'Grip', price: 1200, quantity: 9 },
 // ];
-
-// function calculateTotalPrice(productName) {
-//   let totalPrice = 0;
-//   for (const product of products) {
-//     if (product.name === productName) {
-//       const totalPriceProd = product.price * product.quantity;
-//       totalPrice += totalPriceProd;
-//       return totalPrice;
-//     }
-//   }
-// }
-// calculateTotalPrice('Droid');
-////////////////////////////////////////////

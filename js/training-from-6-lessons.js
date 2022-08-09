@@ -126,4 +126,16 @@ const atTheOldToad = {
 // atTheOldToad.updatePotionName('Stone skin', 'Invulnerability potion');
   
   //////////////////////////////////////////////////////////
-  
+  // function calculateTotalPrice(productName) {
+//   let totalPrice = 0;
+//   for (const product of products) {
+//     if (product.name === productName) {
+//       const totalPriceProd = product.price * product.quantity;
+//       totalPrice += totalPriceProd;
+//       return totalPrice;
+//     }
+//   }
+// }
+// calculateTotalPrice('Droid');
+////////////////////////////////////////////
+
