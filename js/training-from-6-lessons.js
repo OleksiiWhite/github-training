@@ -79,39 +79,41 @@
 
 // atTheOldToad.removePotion('Dragon breath');
 //////////////////////////////////////////////////////////////
-const atTheOldToad = {
-  potions: [
-    { name: 'Speed potion', price: 460 },
-    { name: 'Dragon breath', price: 780 },
-    { name: 'Stone skin', price: 520 },
-  ],
-  // Change code below this line
+// const atTheOldToad = {
+//   potions: [
+//     { name: 'Speed potion', price: 460 },
+//     { name: 'Dragon breath', price: 780 },
+//     { name: 'Stone skin', price: 520 },
+//   ],
+// }
+/////////////////////////////////////////////////////////////////
+// Change code below this line
 
-  //   addPotion(newPotion) {
-  //     const { potions } = this;
-  //     const newName = newPotion.name;
-  //     for (const potion of potions) {
-  //       if (potion.name.includes(newName)) {
-  //         console.log(`Error! Potion ${newName} is already in your inventory!`);
-  //         return `Error! Potion ${newName} is already in your inventory!`;
-  //       }
-  //     }
-  //     console.log(this.potions);
-  //     this.potions.push(newPotion);
-  //   },
-  // };
-  //   for (const potion of potions) {
-  //     if (potion === newPotion) {
-  //       console.log(`Error! Potion ${newPotion} is already in your inventory!`);
-  //       return `Error! Potion ${newPotion} is already in your inventory!`;
-  //     }
-  //     continue;
-  //   }
-  //   console.log(this.potions);
-  //   return this.potions.push(newPotion);
-  // },
-  // };
-  
+//   addPotion(newPotion) {
+//     const { potions } = this;
+//     const newName = newPotion.name;
+//     for (const potion of potions) {
+//       if (potion.name.includes(newName)) {
+//         console.log(`Error! Potion ${newName} is already in your inventory!`);
+//         return `Error! Potion ${newName} is already in your inventory!`;
+//       }
+//     }
+//     console.log(this.potions);
+//     this.potions.push(newPotion);
+//   },
+// };
+//   for (const potion of potions) {
+//     if (potion === newPotion) {
+//       console.log(`Error! Potion ${newPotion} is already in your inventory!`);
+//       return `Error! Potion ${newPotion} is already in your inventory!`;
+//     }
+//     continue;
+//   }
+//   console.log(this.potions);
+//   return this.potions.push(newPotion);
+// },
+// };
+
 //   updatePotionName(oldName, newName) {
 //     const { potions } = this;
 //     for (const potion of potions) {
@@ -124,9 +126,9 @@ const atTheOldToad = {
 //   },
 // };
 // atTheOldToad.updatePotionName('Stone skin', 'Invulnerability potion');
-  
-  //////////////////////////////////////////////////////////
-  // function calculateTotalPrice(productName) {
+
+//////////////////////////////////////////////////////////
+// function calculateTotalPrice(productName) {
 //   let totalPrice = 0;
 //   for (const product of products) {
 //     if (product.name === productName) {
@@ -138,4 +140,3 @@ const atTheOldToad = {
 // }
 // calculateTotalPrice('Droid');
 ////////////////////////////////////////////
-
