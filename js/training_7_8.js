@@ -72,3 +72,19 @@
 // pizzaPalace.order("Big Mike", makePizza, onOrderError);
 // pizzaPalace.order("Vienna", makePizza, onOrderError);
 // //////////////////////////////////////////////////////////////////////////////
+// function calculateTotalPrice(orderedItems) {
+//   let totalPrice = 0;
+//   // Change code below this line
+
+//   // for (let i = 0; i < orderedItems.length; i += 1) {
+//   //   totalPrice += orderedItems[i];
+//   // }
+//   orderedItems.forEach(function calculateTotalPrice(element, index, array) {
+//     totalPrice += element;
+//   });
+//   // Change code above this line
+//   console.log(totalPrice);
+//   return totalPrice;
+// }
+// calculateTotalPrice([164, 48, 291]);
+// ////////////////////////////////////////////////////////////
