@@ -116,3 +116,14 @@
 // }
 // getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]);/////////////
 //////////////////////////////////////////////////////////////////
+// Change code below this line
+// const calculateTotalPrice = orderedItems => {
+//   let totalPrice = 0;
+
+//   orderedItems.forEach(item => {
+//     totalPrice += item;
+//   });
+
+//   return totalPrice;
+// };
+//////////////////////////////////////////////////////
