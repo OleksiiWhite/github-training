@@ -127,3 +127,20 @@
 //   return totalPrice;
 // };
 //////////////////////////////////////////////////////
+
+// function changeEven(numbers, value) {
+//   // Change code below this line
+//   const newArray = [];
+
+//   numbers.forEach(number => {
+//     if (number % 2 === 0) {
+//       newArray.push((number += value));
+//     } else {
+//       newArray.push(number);
+//     }
+//   });
+//   console.log(newArray);
+//   return newArray;
+// }
+// changeEven([2, 8, 3, 7, 4, 6], 10);
+///////////////////////////////////////////////////
