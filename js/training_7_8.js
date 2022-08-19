@@ -88,3 +88,17 @@
 // }
 // calculateTotalPrice([164, 48, 291]);
 // ////////////////////////////////////////////////////////////
+// function filterArray(numbers, value) {
+//   const filteredNumbers = [];
+//   // Change code below this line
+
+//   numbers.forEach(function (number, index) {
+//     if (numbers[index] > value) {
+//       filteredNumbers.push(numbers[index]);
+//     }
+//   });
+
+//   // Change code above this line
+//   return filteredNumbers;
+// }
+//////////////////////////////////////////////////////
