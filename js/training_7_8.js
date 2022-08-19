@@ -102,3 +102,17 @@
 //   return filteredNumbers;
 // }
 //////////////////////////////////////////////////////
+
+// function getCommonElements(firstArray, secondArray) {
+//   const commonElements = [];
+//   // Change code below this line
+//   firstArray.forEach(function (firstArrayElement) {
+//     if (secondArray.includes(firstArrayElement)) {
+//       commonElements.push(firstArrayElement);
+//     }
+//   });
+//   console.log(commonElements);
+//   return commonElements;
+// }
+// getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]);/////////////
+//////////////////////////////////////////////////////////////////
