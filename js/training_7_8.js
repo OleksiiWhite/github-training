@@ -188,3 +188,9 @@
 
 // const genres = books.flatMap(book => book.genres);
 ////////////////////////////////////////////////////////////////
+// const getUserNames = users => {
+//   const nameVisitor = users.map(user => user.name);
+//   console.log(nameVisitor);
+//   return nameVisitor;
+// };
+//////////////////////////////////////////////////////////
