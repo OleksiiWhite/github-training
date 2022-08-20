@@ -262,3 +262,8 @@
 // const getUsersWithFriend = (users, friendName) =>
 //   (midleName = users.filter(user => user.friends.includes(friendName)));
 //////////////////////////////////////////
+// const getFriends = users =>
+//   users
+//     .flatMap(user => user.friends)
+//         .filter((course, index, array) => array.indexOf(course) === index);
+//////////////////////////////////////////////////////////////////////////
