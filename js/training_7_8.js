@@ -253,3 +253,6 @@
 // const topRatedBooks = books.filter(book => book.rating >= MIN_RATING);
 // const booksByAuthor = books.filter(book => book.author === AUTHOR);
 ///////////////////////////////////////////////////////////////////////////////
+// const getUsersWithEyeColor = (users, color) =>
+//   (booksByAuthor = users.filter(user => user.eyeColor === color));
+///////////////////////////////////////////////////////////////////////////
