@@ -256,3 +256,6 @@
 // const getUsersWithEyeColor = (users, color) =>
 //   (booksByAuthor = users.filter(user => user.eyeColor === color));
 ///////////////////////////////////////////////////////////////////////////
+// const getUsersWithAge = (users, minAge, maxAge) =>
+//   (midleAge = users.filter(user => user.age > minAge && user.age < maxAge));
+///////////////////////////////////////////////////////////////////////////////////
