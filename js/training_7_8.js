@@ -259,3 +259,6 @@
 // const getUsersWithAge = (users, minAge, maxAge) =>
 //   (midleAge = users.filter(user => user.age > minAge && user.age < maxAge));
 ///////////////////////////////////////////////////////////////////////////////////
+// const getUsersWithFriend = (users, friendName) =>
+//   (midleName = users.filter(user => user.friends.includes(friendName)));
+//////////////////////////////////////////
