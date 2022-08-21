@@ -463,3 +463,16 @@
 //   (firstBook, secondBook) => secondBook.rating - firstBook.rating
 // );
 /////////////////////////////////////////////////////////////////////////////////////////////
+// const sortByAscendingBalance = users =>
+//   [...users].sort(
+//     (firstBbalance, secondBbalance) =>
+//       firstBbalance.balance - secondBbalance.balance
+//   );
+///////////////////////////////////////////////////////////////////
+// const sortByDescendingFriendCount = users => {
+//   return [...users].sort(
+//     (firstFriend, secondFriend) =>
+//       secondFriend.friends.length - firstFriend.friends.length
+//   );
+// };
+////////////////////////////////////////////////////////////////////////
