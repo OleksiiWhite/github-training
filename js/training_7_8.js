@@ -512,3 +512,22 @@
 //   .map(book => book.author)
 //   .sort((a, b) => a.localeCompare(b));
 ////////////////////////////////////////////////////////////////////
+// const getNamesSortedByFriendCount = users => {
+//   return [...users]
+//     .sort((a, b) => a.friends.length - b.friends.length)
+//     .map(users => users.name);
+// };
+///////////////////////////////////////////////////
+// const getSortedFriends = users => {
+//   return users
+//     .flatMap(user => user.friends)
+//     .filter((user, index, friends) => friends.indexOf(user) === index)
+//     .sort((a, b) => a.localeCompare(b));
+// };
+/////////////////////////////////////////////////////////////////
+// const getTotalBalanceByGender = (users, gender) => {
+//   return users
+//     .filter(user => user.gender === gender)
+//     .reduce((total, user) => total + user.balance, 0);
+// };
+/////////////////////////////////////////////////////////////////////
