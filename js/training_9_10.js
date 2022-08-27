@@ -103,3 +103,12 @@
 // child.name = 'Jason';
 // child.age = 27;
 /////////////////////////////////////////////////
+// class Car {
+//   constructor(brand, model, price) {
+//     this.brand = brand;
+//     this.model = model;
+//     this.price = price;
+//   }
+// }
+
+///////////////////////////////////////////
