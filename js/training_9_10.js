@@ -254,39 +254,41 @@
 // builder.padBoth("=");
 // console.log(builder.getValue()); // "=^.^="
 ////////////////////////////////////////////////////////////////////////////////////////////
-class Car {
-  // Change code below this line
-  #brand;
+// class Car {
+//   // Change code below this line
+//   #brand;
+//   #model;
+//   #price;
 
-  constructor({ brand, model, price }) {
-    this.#brand = brand;
-    this.model = model;
-    this.price = price;
-  }
+//   constructor({ brand, model, price }) {
+//     this.#brand = brand;
+//     this.#model = model;
+//     this.#price = price;
+//   }
 
-  getBrand() {
-    return this.#brand;
-  }
+//   get brand() {
+//     return this.#brand;
+//   }
 
-  changeBrand(newBrand) {
-    this.#brand = newBrand;
-  }
+//   set brand(newBrand) {
+//     this.#brand = newBrand;
+//   }
 
-  getModel() {
-    return this.model;
-  }
+//   get model() {
+//     return this.#model;
+//   }
 
-  updateModel(newModel) {
-    this.model = newModel;
-  }
+//   set model(newModel) {
+//     this.#model = newModel;
+//   }
 
-  getPrice() {
-    return this.price;
-  }
+//   get price() {
+//     return this.#price;
+//   }
 
-  setPrice(newPrice) {
-    this.price = newPrice;
-  }
-  // Change code above this line
-}
+//   set price(newPrice) {
+//     this.#price = newPrice;
+//   }
+//   // Change code above this line
+// }
 //////////////////////////////////////////////////////////////////
