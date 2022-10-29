@@ -1,0 +1,30 @@
+// breackpoints
+$telephone: 320px;
+$to-tablet: 767px;
+$tablet: 768px;
+$to-desktop: 1279px;
+$desktop: 1280px;
+
+:root {
+  --accent-main-color: #ff6b08;
+  //orange color//
+  --accent-secondary-color: #ff001b;
+  //notification red color//
+  --text-main-color: #000000;
+  //black color text//
+  --text-additional-color: #545454;
+  //grey color text//
+  --secondary-color: #ffffff;
+  //white color text, main background color//
+  --bg-secondary-color: #545454;
+  //light-grey bg//
+  --bg-modal-color: #ffffff;
+  //modal window bg//
+  --backdrop-modal-color: rgba(0, 0, 0, 0.25);
+  //modal window bg//
+  --secondary-background-color: #f7f7f7;
+  //footer bgcolor//
+
+  //  timing function
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
