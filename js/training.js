@@ -121,29 +121,3 @@ const keys = Object.keys(apartment);
 for (const key of keys) {
   values.push(apartment[key]);
 }
-
-/////////////////////////////////////////////////////
-
-const products = [
-  { name: 'Radar', price: 1300, quantity: 4 },
-  { name: 'Scanner', price: 2700, quantity: 3 },
-  { name: 'Droid', price: 400, quantity: 7 },
-  { name: 'Grip', price: 1200, quantity: 9 },
-];
-
-function getAllPropValues(propName) {
-  const valuesPropName = [];
-  for (const product of products) {
-    const { name, price, quantity } = product;
-
-    for (const key in product) {
-      if (propName === key) {
-        valuesPropName.push(product[key]);
-      }
-    }
-  }
-
-  console.log(valuesPropName);
-  return valuesPropName;
-}
-getAllPropValues('price');
